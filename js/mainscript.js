@@ -9,10 +9,13 @@ function sleep (time) {
 
 function myFunction1() {
   var x = document.getElementById("pic1");
+  var btns = document.getElementById("btns");
   if (x.style.display === "none") {
     x.style.display = "block";
+    btns.style.display = "none";
     sleep(15000).then(() => {
       x.style.display = "none";
+      btns.style.display = "block";
   });
   } else {
     x.style.display = "none";
@@ -23,8 +26,10 @@ function myFunction2() {
   var x = document.getElementById("pic2");
   if (x.style.display === "none") {
     x.style.display = "block";
+    btns.style.display = "none";
     sleep(15000).then(() => {
       x.style.display = "none";
+      btns.style.display = "block";
   });
   } else {
     x.style.display = "none";
@@ -35,8 +40,10 @@ function myFunction3() {
   var x = document.getElementById("pic3");
   if (x.style.display === "none") {
     x.style.display = "block";
+    btns.style.display = "none";
     sleep(15000).then(() => {
       x.style.display = "none";
+      btns.style.display = "block";
   });
   } else {
     x.style.display = "none";
@@ -47,8 +54,10 @@ function myFunction4() {
   var x = document.getElementById("pic4");
   if (x.style.display === "none") {
     x.style.display = "block";
+    btns.style.display = "none";
     sleep(15000).then(() => {
       x.style.display = "none";
+      btns.style.display = "block";
   });
   } else {
     x.style.display = "none";
